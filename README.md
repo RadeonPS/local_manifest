@@ -1,2 +1,2 @@
 # local_manifest
-android rom manifest
+Rom Building Trials Manifest
