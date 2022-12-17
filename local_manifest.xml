@@ -2,6 +2,6 @@
 <manifest>	
 
  <!-- Trees -->
- <project path="device/xiaomi/ginkgo" name="PixelExperience-Devices/device_xiaomi_beryllium.git" remote="github" revision="twelve-plus" />
+ <project path="pe" name="PixelExperience-Devices/device_xiaomi_beryllium.git" remote="github" revision="twelve-plus" />
 
 </manifest>
