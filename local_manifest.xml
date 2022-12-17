@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>	
+
+ <!-- Trees -->
+ <project path="device/xiaomi/ginkgo" name="PixelExperience-Devices/device_xiaomi_beryllium.git" remote="github" revision="twelve-plus" />
+
+</manifest>
