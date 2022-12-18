@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>	
+ <!--Remote-->
+ <remote name="RadeonPS" fetch="https://github.com/RadeonPS" />
+ <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
+ <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
- <!-- Trees -->
- <project path="pe" name="PixelExperience-Devices/device_xiaomi_beryllium.git" remote="github" revision="twelve-plus" />
+ <!--Trees-->
+ <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium1" remote="RadeonPS" revision="twelve-plus" />
 
 </manifest>
