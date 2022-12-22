@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>	
  <!--Remote-->
- <remote name="RadeonPS" fetch="https://github.com/RadeonPS" />
- <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+ <remote name="RadeonPS" 
+         fetch="https://github.com/RadeonPS" />
+ <remote name="PixelExperience" 
+         fetch="https://github.com/PixelExperience" />
+ <remote name="kdrag0n" 
+         fetch="https://github.com/kdrag0n" />
+  <remote name="gitlab" 
+         fetch="https://gitlab.com" />
 
  <!--Trees-->
- <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium1" remote="RadeonPS" revision="twelve-plus" />
+ <project path="device/xiaomi/beryllium" 
+          name="device_xiaomi_beryllium" remote="RadeonPS" revision="twelve-plus" />
+  
+ <project path="device/xiaomi/sdm845-common" 
+          name="device_xiaomi_sdm845-common" remote="RadeonPS" revision="twelve" />
+  
+ <project path="kernel/xiaomi/beryllium" 
+          name="kernel_xiaomi_polaris" remote="RadeonPS" revision="twelve" />
+  
+ <project path="vendor/xiaomi/beryllium" 
+          name="vendor_xiaomi_beryllium" remote="RadeonPS" revision="eleven" />
+ 
+ <project path="packages/apps/GoogleCameraGo" 
+          name="lakgarg/packages_apps_GoogleCameraGo" remote="gitlab" revision="master" />
+ 
 
 </manifest>
