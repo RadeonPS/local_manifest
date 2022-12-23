@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>	
  <!--Trees-->
- <project path="device/xiaomi/beryllium" 
-          name="device_xiaomi_beryllium" remote="pixel-devices" revision="twelve-plus" />
-  
- <project path="device/xiaomi/sdm845-common" 
-          name="device_xiaomi_sdm845-common" remote="pixel-devices" revision="twelve" />
-  
- <project path="kernel/xiaomi/beryllium" 
-          name="kernel_xiaomi_polaris" remote="pixel-devices" revision="twelve" />
-  
- <project path="vendor/xiaomi/beryllium" 
-          name="vendor_xiaomi_beryllium" remote="pixel-devices-blobs" revision="eleven" />
- 
- <project path="packages/apps/GoogleCameraGo" 
-          name="lakgarg/packages_apps_GoogleCameraGo" remote="gitlab" revision="master" />
  
  <project path="prebuilts/clang/host/linux-x86/clang-proton" 
           name="kdrag0n/proton-clang" remote="github" revision="master" />
