@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>	
- <!--Trees-->
+ <!--Clang-->
  
+ <remove-project name="jjpprrrr/prelude-clang" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" 
           name="kdrag0n/proton-clang" remote="github" revision="master" />
 
